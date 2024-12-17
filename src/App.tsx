@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import ReactHook from "./react-hook.png";
 import GetOnlineStatus from "./components/GetOnlineStatus";
-import { useTheme } from "./tools";
 import ThemeToggler from "./components/ThemeToggler";
 import WindowDimensions from "./components/WindowDimensions";
 import FetchData from "./components/FetchData";
+import useTheme from "./hooks/useTheme";
 
 function App() {
   const { theme, toggleTheme } = useTheme();

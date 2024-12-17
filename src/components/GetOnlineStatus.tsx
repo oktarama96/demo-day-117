@@ -1,4 +1,4 @@
-import { useOnlineStatus } from "../tools";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 
 const GetOnlineStatus = () => {
   const isOnline = useOnlineStatus();

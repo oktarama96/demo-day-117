@@ -1,4 +1,4 @@
-import { useFetchData } from "../tools";
+import useFetchData from "../hooks/useFetchData";
 
 interface Product {
   id: number;
